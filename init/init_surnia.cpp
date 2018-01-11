@@ -36,6 +36,8 @@
 #include "vendor_init.h"
 #include "property_service.h"
 
+using android::init::property_set;
+
 void gsm_properties(bool msim);
 void cdma_properties();
 
